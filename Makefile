@@ -7,6 +7,9 @@ CGO_ENABLED=0
 dev:
 	go run main.go
 
+dev-setup:
+	go run main.go -setup
+
 build:
 	go build -o ./bin/rabbitmq main.go
 
